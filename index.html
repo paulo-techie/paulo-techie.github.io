@@ -62,17 +62,17 @@
         </div>
       </div>
     </header>
-    <main role="main" class="bg-light">
+    <main role="main" class="bg-light pb-5 mb-5">
       <section class="jumbotron bg-dark">
-        <div class="container col-md-6">
+        <div class="container col-md-6 text-center">
           <h1 class="text-light">Hey there! I'm Paul!</h1>
           <h5 class="text-light">I'm a Full Stack Software Developer. I build apps.</h5>
           <p class="lead text-light">I can design and build you a product, feature or a website. Look through my portfolio to see examples of my work and expertise. 
-            Don't hesitate to get in touch with me.</p>
+            <br/>Don't hesitate to get in touch with me.</p>
           <a href="#contact" class="btn btn-sm btn-primary rounded my-2">Contact me</a>
         </div>
       </section>
-      <div class="row container bg-light m-auto">
+      <div class="row container bg-light m-auto mb-5">
         <h4 class="text-primary col-sm-12 font-weight-bold my-4 p-0">Recent Projects</h4>
         <div class="col-md-6 bg-light">
           <div class="card m-1 shadow-sm">
@@ -104,22 +104,32 @@
         </div>
       </div>
     </main>
-    <footer class="bg-dark text-center mt-4">
-      <h4 class="text-muted">CONTACT</h4>
-      <h6 class="text-primary">Have a question or want to work together?</h6>
-      <form class="offset-4 col-md-4" id="contact" action="mailto:paulo-techie@gmail.com" method="GET">
-        <div class="form-group">
-          <input type="name" class="form-control bg-light" id="input1" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control bg-light" id="input2" placeholder="Email adddress">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control bg-light" id="exampleFormControlTextarea1" placeholder="Your message" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-sm btn-primary">Submit</button>
-      </form>
 
+    <footer class="bg-dark text-center mt-4 accordion" id="accordionFooter">
+    <div class="card bg-dark fixed-bottom">
+      <div class="card-header">
+        <button class="btn btn-link text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h3 class="text-primary">Contact</h3>
+        </button>
+      </div>
+      <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionFooter">
+        <div class="card-body">
+          <h6 class="text-primary">Have a question or want to work together?</h6>
+          <form class="offset-4 col-md-4" id="contact" action="mailto:paulo-techie@gmail.com" method="GET">
+            <div class="form-group">
+              <input type="name" class="form-control bg-light" id="input1" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control bg-light" id="input2" placeholder="Email adddress">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control bg-light" id="exampleFormControlTextarea1" placeholder="Your message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
     </footer>
 
     <!-- Optional JavaScript -->
