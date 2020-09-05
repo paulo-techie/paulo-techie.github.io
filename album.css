@@ -31,3 +31,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.bluerain {
+  background-image: url("bluerain.gif");
+}
